@@ -1,26 +1,14 @@
 "use client";
-import LightPillar from "@/components/LightPillar";
 import Menu from "../Menu/Menu";
 import TextType from "@/components/TextType";
 import StarBorder from "@/components/StarBorder";
+import LightVideo from "../LightVideo/LightVideo";
 
 const HeroSection = () => {
   return (
     <div>
       <div style={{ width: "100%", height: "700px", position: "relative" }}>
-        <LightPillar
-          topColor="#198ed7"
-          bottomColor="#2ed5ff"
-          intensity={1.0}
-          rotationSpeed={0.3}
-          glowAmount={0.005}
-          pillarWidth={3.0}
-          pillarHeight={0.4}
-          noiseIntensity={0.5}
-          pillarRotation={25}
-          interactive={false}
-          mixBlendMode="normal"
-        />
+        <LightVideo className="absolute -top-15 md:-top-20 left-0 w-full h-screen object-cover pointer-events-none" />
 
         <Menu />
 
