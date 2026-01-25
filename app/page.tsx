@@ -44,7 +44,7 @@ const Home = () => {
       <footer className="p-2 md:p-10 text-center bg-gray-700 text-cyan-500 flex items-center justify-center gap-5">
         <FaReact className="text-xl md:text-2xl" />
         <h2 className="text-xl md:text-2xl font-bold">
-          All Rights Reserved: Yahia Nasser
+          All Rights Reserved: Yahia Soliman
         </h2>
         <FaReact className=" md:text-2xl" />
       </footer>

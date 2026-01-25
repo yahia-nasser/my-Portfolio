@@ -37,14 +37,14 @@ const Menu = () => {
 
     {
       label: "WhatsApp",
-      onClick: () => router.push("https://wa.me/201033412951?text=Hello"),
+      onClick: () => router.push("https://wa.me/37066409476?text=Hello"),
       icon: <FaWhatsapp size={24} color="cyan" />,
     },
     {
       label: "LinkedIn",
       onClick: () =>
         router.push(
-          "https://www.linkedin.com/in/yahia-nasser-971805393?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+          "https://www.linkedin.com/in/yahia-soliman-9a97963a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         ),
       icon: <FaLinkedin size={24} color="cyan" />,
     },
@@ -56,7 +56,7 @@ const Menu = () => {
   ];
   return (
     <Dock
-      className="fixed bottom-[50px] left-1/2 z-100 text-white cursor-pointer rounded-2xl backdrop-blur-xl border hidden md:flex"
+      className="fixed bottom-20 left-1/2 z-100 text-white cursor-pointer rounded-2xl backdrop-blur-xl border hidden md:flex"
       items={items}
       panelHeight={70}
       baseItemSize={40}

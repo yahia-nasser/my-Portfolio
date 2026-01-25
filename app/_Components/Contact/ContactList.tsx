@@ -11,12 +11,12 @@ import Link from "next/link";
 const socialLinks = [
   {
     label: "WhatsApp",
-    href: "https://wa.me/201033412951?text=Hello",
+    href: "https://wa.me/37066409476?text=Hello",
     icon: <FaWhatsapp />,
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/yahia-nasser-971805393?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    href: "https://www.linkedin.com/in/yahia-soliman-9a97963a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     icon: <FaLinkedin />,
   },
   {

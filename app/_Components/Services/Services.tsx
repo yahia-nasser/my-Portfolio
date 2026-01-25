@@ -1,104 +1,41 @@
 "use client";
 
-import TiltedCard from "@/components/TiltedCard";
+import FlowingMenu from "@/components/FlowingMenu";
+
+const demoItems = [
+  {
+    link: "#services",
+    text: "Responsive Designs",
+    image: "/images/Responsive.png",
+  },
+  {
+    link: "#services",
+    text: "Front-End",
+    image: "/images/Front-end.jpg",
+  },
+  {
+    link: "#services",
+    text: "SEO Optimaization",
+    image: "/images/Seo.jpg",
+  },
+  {
+    link: "#services",
+    text: "Integration & API Handling",
+    image: "/images/api.png",
+  },
+];
 
 const Services = () => {
   return (
-    <div className="w-[90%] flex flex-col mx-auto justify-center items-center gap-7 md:flex-row md:justify-between md:w-[80%] ">
-      <TiltedCard
-        imageSrc="/images/Responsive.png"
-        altText="Responsive Designs"
-        captionText="Responsive Designs"
-        containerHeight="200px"
-        containerWidth="200px"
-        imageHeight="200px"
-        imageWidth="200px"
-        rotateAmplitude={5}
-        scaleOnHover={1.05}
-        showMobileWarning={false}
-        showTooltip={true}
-        displayOverlayContent={true}
-        overlayContent={
-          <p
-            className="w-fit px-4 py-2 font-medium tracking-wide
-             text-[#00EEFF] hover:text-black transition duration-300
-            rounded-2xl shadow-[0_0_15px_#00EEFF] active:scale-95 bg-gray-50  "
-          >
-            Responsive Designs
-          </p>
-        }
-      />
-
-      <TiltedCard
-        imageSrc="/images/Front-end.jpg"
-        altText="Front-End"
-        captionText="Front-End"
-        containerHeight="200px"
-        containerWidth="200px"
-        imageHeight="200px"
-        imageWidth="200px"
-        rotateAmplitude={5}
-        scaleOnHover={1.05}
-        showMobileWarning={false}
-        showTooltip={true}
-        displayOverlayContent={true}
-        overlayContent={
-          <p
-            className="w-fit px-4 py-2 font-medium tracking-wide
-             text-[#00EEFF] hover:text-black transition duration-300
-            rounded-2xl shadow-[0_0_15px_#00EEFF] active:scale-95 bg-gray-50  "
-          >
-            Front-End
-          </p>
-        }
-      />
-
-      <TiltedCard
-        imageSrc="/images/Seo.jpg"
-        altText="SEO Optimaization"
-        captionText="SEO Optimaization"
-        containerHeight="200px"
-        containerWidth="200px"
-        imageHeight="200px"
-        imageWidth="200px"
-        rotateAmplitude={5}
-        scaleOnHover={1.05}
-        showMobileWarning={false}
-        showTooltip={true}
-        displayOverlayContent={true}
-        overlayContent={
-          <p
-            className="w-fit px-4 py-2 font-medium tracking-wide
-             text-[#00EEFF] hover:text-black transition duration-300
-            rounded-2xl shadow-[0_0_15px_#00EEFF] active:scale-95 bg-gray-50  "
-          >
-            SEO Optimaization
-          </p>
-        }
-      />
-
-      <TiltedCard
-        imageSrc="/images/api.png"
-        altText="Integration & API Handling"
-        captionText="Integration & API Handling"
-        containerHeight="200px"
-        containerWidth="200px"
-        imageHeight="200px"
-        imageWidth="200px"
-        rotateAmplitude={5}
-        scaleOnHover={1.05}
-        showMobileWarning={false}
-        showTooltip={true}
-        displayOverlayContent={true}
-        overlayContent={
-          <p
-            className="w-fit px-4 py-2 font-medium tracking-wide
-             text-[#00EEFF] hover:text-black transition duration-300
-            rounded-2xl shadow-[0_0_15px_#00EEFF] active:scale-95 bg-gray-50  "
-          >
-            Integration & API Handling
-          </p>
-        }
+    <div className="w-[90%] flex mx-auto justify-center items-center gap-10 md:flex-row md:justify-between md:w-[80%] ">
+      <FlowingMenu
+        items={demoItems}
+        speed={15}
+        textColor="#ffffff"
+        bgColor="#060010"
+        marqueeBgColor="#ffffff"
+        marqueeTextColor="#00EEFF"
+        borderColor="#ffffff"
       />
     </div>
   );
