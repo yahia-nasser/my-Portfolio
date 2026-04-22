@@ -3,6 +3,21 @@ import PortfolioMasonry from "../PortfolioSlider/PortfolioSlider";
 const Projects = () => {
   const projects = [
     {
+      title: "Screenify | Movie App",
+      image: "/images/projects/screenify.png",
+      tech: [
+        "UI/UX",
+        "Responsive",
+        "Next.js",
+        "TS",
+        "Tailwind",
+        "React",
+        "Shadcn",
+        "Framer Motion",
+      ],
+      link: "https://sceenify-movie-app.vercel.app/",
+    },
+    {
       title: "Linked Posts | Social Media",
       image: "/images/projects/linkedPost1.png",
       tech: [
