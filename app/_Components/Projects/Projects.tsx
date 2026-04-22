@@ -74,7 +74,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="w-[90%] md:max-w-[80%] mx-auto">
+    <div className="w-[90%] md:max-w-[80%] mx-auto flex gap-5 flex-wrap flex-col md:flex-row justify-center items-center">
       <PortfolioMasonry projects={projects} />;
     </div>
   );
