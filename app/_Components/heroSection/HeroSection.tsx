@@ -13,7 +13,7 @@ const HeroSection = () => {
         <Menu />
 
         <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center z-10 text-white text-xl w-full md:text-5xl font-bold flex flex-col gap-4 justify-center items-center">
-          <h2>Hello, Iam</h2>
+          <h2>Hello, I am</h2>
           <TextType
             text={["Yahia Soliman", "Front-end Developer"]}
             typingSpeed={75}

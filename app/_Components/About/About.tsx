@@ -11,7 +11,7 @@ const About = () => {
         className="custom-spotlight-card text-white mx-auto w-[90%] md:w-1/2 text-xl my-border flex justify-center items-center relative"
         spotlightColor="rgba(46, 213, 255, .4)"
       >
-        Iam a frontend developer focused on building responsive, modern web
+        I am a frontend developer focused on building responsive, modern web
         interfaces using Next.js, React, TypeScript, and Tailwind CSS. I enjoy
         crafting clean UI, refining component structures, and experimenting with
         motion and layout patterns.
