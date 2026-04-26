@@ -1,8 +1,13 @@
 "use client";
 import Dock from "@/components/Dock";
 import { useRouter } from "next/navigation";
-import { VscAccount, VscHome, VscSettingsGear } from "react-icons/vsc";
-
+import {
+  VscAccount,
+  VscCode,
+  VscHome,
+  VscMortarBoard,
+  VscSettingsGear,
+} from "react-icons/vsc";
 import { MdContactMail } from "react-icons/md";
 import { RiNextjsLine } from "react-icons/ri";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
@@ -20,9 +25,19 @@ const Menu = () => {
       onClick: () => router.push("#about"),
     },
     {
+      icon: <VscMortarBoard size={24} color="cyan" />,
+      label: "Education & Experience",
+      onClick: () => router.push("#education"),
+    },
+    {
       icon: <VscSettingsGear size={24} color="cyan" />,
       label: "Services",
       onClick: () => router.push("#services"),
+    },
+    {
+      icon: <VscCode size={24} color="cyan" />,
+      label: "Skills",
+      onClick: () => router.push("#skills"),
     },
     {
       icon: <RiNextjsLine size={24} color="cyan" />,

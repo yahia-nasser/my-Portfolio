@@ -5,7 +5,9 @@ import Contact from "./_Components/Contact/Contact";
 import HeroSection from "./_Components/heroSection/HeroSection";
 import Projects from "./_Components/Projects/Projects";
 import { Divider } from "./_Components/Separator/Separator";
-import Services from "./_Components/Services/Services";
+import Education from "./_Components/Education/Education";
+import Capabilities from "./_Components/Services/Capabilities";
+import Skills from "./_Components/Skills/Skills";
 
 const Home = () => {
   return (
@@ -21,11 +23,25 @@ const Home = () => {
         <AboutSlider />
       </section>
       <Divider thickness="3px" length="80%" color="#00EEFF" />
+      <section className="my-[130px]" id="education">
+        <h2 className="text-white text-4xl md:text-7xl text-center my-20 font-bold">
+          <span className="text-[#00EEFF]">Education</span> & Experience
+        </h2>
+        <Education />
+      </section>
+      <Divider thickness="3px" length="80%" color="#00EEFF" />
       <section className="my-[130px]" id="services">
         <h2 className="text-white text-4xl md:text-7xl text-center my-20 font-bold">
           My <span className="text-[#00EEFF]">Services</span>
         </h2>
-        <Services />
+        <Capabilities />
+      </section>
+      <Divider thickness="3px" length="80%" color="#00EEFF" />
+      <section className="my-[130px]" id="skills">
+        <h2 className="text-white text-4xl md:text-7xl text-center my-20 font-bold">
+          My <span className="text-[#00EEFF]">Skills</span>
+        </h2>
+        <Skills />
       </section>
       <Divider thickness="3px" length="80%" color="#00EEFF" />
       <section className="my-[130px]" id="projects">
