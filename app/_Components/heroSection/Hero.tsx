@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Download, ArrowRight } from "lucide-react";
+import Menu from "../Menu/Menu";
 
 export default function Hero() {
   return (
@@ -10,6 +11,8 @@ export default function Hero() {
       className="relative min-h-screen flex items-center overflow-hidden"
       style={{ background: "var(--background, #0d1117)" }}
     >
+      <Menu />
+
       <div className="absolute inset-0 z-0 pointer-events-none">
         <div
           className="absolute inset-0 opacity-[0.03]"
