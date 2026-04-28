@@ -2,18 +2,18 @@ import { FaReact } from "react-icons/fa";
 import About from "./_Components/About/About";
 import AboutSlider from "./_Components/AboutSlider/AboutSlider";
 import Contact from "./_Components/Contact/Contact";
-import HeroSection from "./_Components/heroSection/HeroSection";
 import Projects from "./_Components/Projects/Projects";
 import { Divider } from "./_Components/Separator/Separator";
 import Education from "./_Components/Education/Education";
 import Capabilities from "./_Components/Services/Capabilities";
 import Skills from "./_Components/Skills/Skills";
+import Hero from "./_Components/heroSection/Hero";
 
 const Home = () => {
   return (
     <div>
       <main>
-        <HeroSection />
+        <Hero />
       </main>
       <section className="my-[130px]" id="about">
         <h2 className="text-white text-4xl md:text-7xl text-center my-20 font-bold">

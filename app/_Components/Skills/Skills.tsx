@@ -7,10 +7,10 @@ const skillGroups = [
     label: "Languages",
     icon: "{ }",
     skills: [
-      { name: "JavaScript ES6+", level: 90 },
-      { name: "TypeScript", level: 85 },
-      { name: "HTML5", level: 95 },
-      { name: "CSS3", level: 90 },
+      { name: "JavaScript ES6+", level: 95 },
+      { name: "TypeScript", level: 90 },
+      { name: "HTML5", level: 100 },
+      { name: "CSS3", level: 100 },
     ],
   },
   {
@@ -18,19 +18,19 @@ const skillGroups = [
     icon: "⚛",
     skills: [
       { name: "React.js", level: 90 },
-      { name: "Next.js", level: 85 },
-      { name: "Redux / Zustand", level: 75 },
-      { name: "React Query", level: 80 },
-      { name: "shadcn/ui", level: 85 },
+      { name: "Next.js", level: 95 },
+      { name: "Redux / Zustand", level: 80 },
+      { name: "React Query", level: 90 },
+      { name: "shadcn/ui", level: 95 },
     ],
   },
   {
     label: "Styling",
     icon: "✦",
     skills: [
-      { name: "Tailwind CSS", level: 90 },
-      { name: "Bootstrap", level: 80 },
-      { name: "CSS Modules", level: 75 },
+      { name: "Tailwind CSS", level: 95 },
+      { name: "Bootstrap", level: 95 },
+      { name: "CSS Modules", level: 85 },
       { name: "Responsive Design", level: 90 },
     ],
   },
@@ -40,7 +40,7 @@ const skillGroups = [
     skills: [
       { name: "REST API Integration", level: 85 },
       { name: "Axios / Fetch", level: 90 },
-      { name: "NextAuth", level: 80 },
+      { name: "NextAuth", level: 90 },
       { name: "Stripe API", level: 70 },
     ],
   },
@@ -50,8 +50,8 @@ const skillGroups = [
     skills: [
       { name: "Git & GitHub", level: 85 },
       { name: "Vite", level: 80 },
-      { name: "Postman", level: 75 },
-      { name: "Agile / Scrum", level: 75 },
+      { name: "Postman", level: 85 },
+      { name: "Agile / Scrum", level: 85 },
     ],
   },
 ];

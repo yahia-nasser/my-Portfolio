@@ -32,13 +32,13 @@ export default function SocialList() {
       <h2 className="text-white text-xl md:text-4xl text-center mb-4 flex justify-center items-center gap-2">
         Get In Touch <FaAngleDoubleDown className="text-[cyan]" />
       </h2>
-      <ul className="flex flex-col gap-10 text-xl md:text-4xl border border-cyan-400 rounded-2xl p-7 text-white transition-all">
+      <ul className="flex flex-col gap-10 text-xl md:text-3xl border border-cyan-400 rounded-2xl p-7 text-white transition-all">
         {socialLinks.map((item, index) => (
           <li key={index}>
             <Link
               href={item.href}
               target="_blank"
-              className="flex items-center gap-2 px-2 py-1 transition-all hover:bg-cyan-500 hover:ms-2 rounded"
+              className="flex items-center gap-2 px-2 py-1 transition-all hover:bg-[#3ffbff] hover:ms-2 rounded"
             >
               {item.icon}
               {item.label}
